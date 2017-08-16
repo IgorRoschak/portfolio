@@ -43,30 +43,18 @@ $(document).ready(function () {
             scrollTop: $(this.hash).offset().top
         });
     });
-    //$('a[href*=#]:not([href=#])').click(function () {
-    //    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-    //        var target = $(this.hash);
-    //        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-    //        if (target.length) {
-    //            $('html,body').animate({
-    //                scrollTop: target.offset().top - 90
-    //            }, 1000);
-    //            return false;
-    //        }
-    //    }
-    //});
     /*=======================================
      ANIMATION
      ========================================*/
     wow = new WOW(
         {
-            boxClass: 'wow',      // default
-            animateClass: 'animated', // default
-            offset: 0,          // default
-            mobile: false,      // default
-            live: true        // default
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: false,
+            live: true
         }
-    )
+    );
     wow.init();
 
     var opacity_effect = $('.title-effect');
