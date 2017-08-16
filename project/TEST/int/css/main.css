@@ -1,0 +1,168 @@
+body {
+    background: #ffffff;
+    font-family: "MyriadProRegular", sans-serif;
+}
+
+.container {
+    max-width: 1030px;
+    width: 100%;
+}
+
+.nav-header {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.signature {
+    background: url("../img/Glavnaia_09.png") no-repeat center;
+    float: right;
+    width: 107px;
+    height: 55px;
+}
+
+.page-wrapper {
+    background: #f5d28f;
+}
+
+.title-line {
+    background: #5a8437;
+    padding: 30px 0;
+}
+
+.content {
+    padding: 40px 0 30px;
+}
+
+.red-separator {
+    border-bottom: 1px solid #d32f04;
+    display: block;
+}
+
+.box-items {
+    margin: 10px 0 20px;
+}
+
+.box-items .item {
+    margin: 20px 0;
+    height: 455px;
+    position: relative;
+    border: 1px solid #bcbcbc;
+    background: #ffffff;
+}
+
+.item-header {
+    height: 172px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.item-body {
+    padding: 0 15px;
+}
+
+.item-footer {
+    position: absolute;
+    padding: 0 15px 25px 15px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn-review {
+    font-size: 30px;
+    border-radius: 7px;
+    padding-bottom: 0;
+    color: #ffffff;
+    background: #ff3500;
+    border-bottom: 7px solid #d32f04;
+}
+
+.footer {
+    padding: 30px 0 40px;
+    background: #ffffff;
+}
+
+.ico-address {
+    background: url("../img/ik_1.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-right: 15px;
+}
+
+.ico-mail {
+    background: url("../img/ik_2.png") no-repeat center;
+    width: 25px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin-right: 15px;
+}
+
+.ico-phone {
+    background: url("../img/ik_3.png") no-repeat center;
+    width: 25px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    margin-right: 15px;
+}
+
+.nav-footer {
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-footer-list {
+    float: right;
+}
+
+.nav-footer-list li {
+    float: left;
+    padding-right: 20px;
+}
+
+.nav-footer-list li:last-child {
+    padding-right: 0;
+}
+
+.nav-footer-list li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #4d545e;
+}
+
+.nav-footer-list li a:hover {
+    opacity: 0.7;
+}
+
+.solial-list {
+    float: right;
+    margin-top: 10px;
+}
+
+.solial-list li {
+    float: left;
+    margin-right: 15px;
+}
+
+.solial-list li:last-child {
+    margin-right: 0;
+}
+
+.ico-social {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+}
+
+.ico-social:hover {
+    opacity: 0.7;
+}
+

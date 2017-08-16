@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'GothamPro-Regular';
+  src:url('gothampro-regular/GothamPro.eot?#iefix') format('embedded-opentype'),
+      url('gothampro-regular/GothamPro.woff') format('woff'),
+      url('gothampro-regular/GothamPro.ttf') format('truetype'),
+      url('gothampro-regular/GothamPro.svg#GothamPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro-Light';
+  src: url('gothamgro-light/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+  	   url('gothamgro-light/GothamPro-Light.woff') format('woff'),
+  	   url('gothamgro-light/GothamPro-Light.ttf')  format('truetype'),
+  	   url('gothamgro-light/GothamPro-Light.svg#GothamPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro-Medium';
+    src: url('gothampro-medium/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),  
+       url('gothampro-medium/GothamPro-Medium.woff') format('woff'), 
+       url('gothampro-medium/GothamPro-Medium.ttf')  format('truetype'), 
+       url('gothampro-medium/GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

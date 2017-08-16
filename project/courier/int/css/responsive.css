@@ -1,0 +1,124 @@
+@media (max-width: 1920px) {
+    .next-4 {
+        display: none;
+    }
+    .adaptive-box-1-1, .adaptive-box-2-1 {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .arrow-box {
+        height: 363px;
+        left: 90px;
+        top: 340px;
+        width: 850px;
+    }
+}
+@media (max-width: 992px) {
+    h1, h4 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    .title-24 {
+        font-size: 20px;
+    }
+    .title-14 {
+        padding: 0;
+    }
+    .title-18 {
+        font-size: 14px;
+    }
+    .box-text p {
+        font-size: 16px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .next-4 {
+        display: block;
+    }
+    .next-3, .next-6 {
+        display: none;
+    }
+    .btn-primary {
+        font-size: 16px;
+    }
+    .form-modal .form-control,
+    .form-discount .form-control {
+        font-size: 16px;
+    }
+    .top-box-75 {
+        margin-top: 0;
+    }
+
+    .arrow-box {
+        display: none;
+    }
+    .top-box-60,
+    .top-box-40 {
+        margin-top: 0;
+    }
+    .modal-header .title-18 {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 768px) {
+    .next-1, .next-2, .next-3, .next-4, .next-5, .next-6 {
+        display: none;
+    }
+    .empty-box {
+        display: none;
+    }
+    .text {
+        display: none;
+    }
+    .row-3 {
+        margin-top: 0;
+    }
+    .order-box {
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        font-size: 13px;
+    }
+    .form-modal .form-control,
+    .form-discount .form-control {
+        font-size: 13px;
+    }
+    .adaptive-box-1-1, .adaptive-box-2-1 {
+        display: block;
+    }
+    .adaptive-box-1-2, .adaptive-box-2-2 {
+        display: none;
+    }
+}
+@media (max-width: 540px) {
+    .index .btn-primary {
+        white-space: normal;
+        height: 100px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 480px) {
+    h1, h4 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .title-24 {
+        font-size: 18px;
+    }
+    .title-18 {
+        font-size: 14px;
+    }
+    .box-text p {
+        font-size: 14px;
+    }
+    .header h3 {
+        top: 400px;
+    }
+}

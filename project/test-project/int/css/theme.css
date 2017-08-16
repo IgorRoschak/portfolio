@@ -1,0 +1,71 @@
+.navbar-nav {
+    margin-left: -15px;
+}
+
+.navbar-form {
+    padding-right: 0;
+    margin: 0 -15px 0 0;
+    position: relative;
+}
+
+.navbar-form > .form-control {
+    min-width: 270px;
+    height: 40px;
+    margin: 15px 0;
+    padding-right: 40px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+.form-control::-webkit-input-placeholder {rgba(40,40,40,.2);}
+.form-control::-moz-placeholder {rgba(40,40,40,.2);}/* Firefox 19+ */
+.form-control:-moz-placeholder {rgba(40,40,40,.2);}/* Firefox 18- */
+.form-control:-ms-input-placeholder {rgba(40,40,40,.2);}
+
+.form-control:hover, .form-control:active, .form-control:focus {
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.btn-danger {
+    height: 45px;
+    font-size: 13px;
+    border-radius: 0;
+    font-style: italic;
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    background: #ee4400;
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger:focus {
+    background: #ff4900;
+}
+
+.navbar-inverse {
+    border-radius: 0;
+    min-height: 70px;
+    background: #282828;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background: #eb3c00;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active, .navbar-inverse .navbar-nav > li > a:focus {
+    background: #eb3c00;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    padding: 25px 18px;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    text-transform: uppercase;
+}

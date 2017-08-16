@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="description" content="">-->
+    <!--<meta name="keywords" content="">-->
+    <!--<link rel="icon" href="">-->
+
+    <title>concrete</title>
+    <link href="int/font/roboto.css" rel="stylesheet">
+    <link href="int/font/DinCondC.css" rel="stylesheet">
+    <link href="ext/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="ext/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="ext/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+    <link href="ext/ico/ico.css" rel="stylesheet">
+    <link href="int/css/main.css" rel="stylesheet">
+    <link href="int/css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="/ext/default/js/html5shiv.min.js"></script>
+    <script src="/ext/default/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="container">
+                        <a href="#" class="logo" style="background-image: url('int/img/logo.png');"></a>
+                        <button class="navbar-toggle" type="button" data-toggle="modal" data-target="#menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <nav class="collapse navbar-collapse" id="responsive-menu-header">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#" class="active">главная</a></li>
+                                <li><a href="#">о компании</a></li>
+                                <li><a href="#">услуги</a></li>
+                                <li><a href="#">автопарк</a></li>
+                                <li><a href="#">стоимость</a></li>
+                                <li><a href="#">онлайн-заявка</a></li>
+                            </ul>
+                        </nav>
+                        <div class="phone phone-header">
+                            <span class="number">+7 (917) <span class="num-bold">557-57-55</span></span>
+                            <span class="mode">Круглосуточно</span>
+                        </div>
+                        <div class="lang">
+                            <a href="#" class="active">rus</a>
+                            <a href="#">eng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <h1 class="title-box-inverse">Аренда автомобилей в Сочи</h1>
+                    <p>обслуживание корпоративных мероприятий</p>
+                    <p class="model">mercedes «e», «S», «V»  class,  viano,  sprinter</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="yellow-box">
+        <section class="container">
+            <h2 class="title-box">онлайн-заявка</h2>
+            <div class="box-request">
+                <div role="tabpanel">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#Мероприятие" aria-controls="Мероприятие" role="tab" data-toggle="tab">Мероприятие</a></li>
+                        <li role="presentation"><a href="#экскорт" aria-controls="экскорт" role="tab" data-toggle="tab">Свадебный экскорт</a></li>
+                        <li role="presentation"><a href="#трансфер" aria-controls="трансфер" role="tab" data-toggle="tab">Индивидуальный трансфер</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="Мероприятие">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-12 request-box-1">
+                                    <span class="form-name">Дата мероприятия</span>
+                                    <div class="input-group input-append date" id="datetimepicker1">
+                                        <input class="form-control" data-format="dd MM yyyy" type="text" placeholder=""/>
+                                        <div class="input-group-addon add-on">
+                                            <a class="if-calendar"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 request-box-2">
+                                    <span class="form-name">Выбор автомобилей</span>
+                                    <ul class="nav nav-dropdown">
+                                        <li class="dropdown">
+                                            <a href="#" id="navbarDrop1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                                <span class="drop-left-box">Выбрать из списка...</span>
+                                                <span class="drop-right-box"></span>
+                                            </a>
+                                            <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="navbarDrop1">
+                                                <li>
+                                                    <a href="#" tabindex="-1" data-toggle="dropdown">
+                                                        <span class="list-left-box">Класс авто:</span>
+                                                        <span class="list-right-box">Кол-во авто:</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test1"/>
+                                                                <label for="test1">
+                                                                    <span class="list-name">Mercedes «S class»<p class="list-description">до 3 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test2"/>
+                                                                <label for="test2">
+                                                                    <span class="list-name">Mercedes Viano<p class="list-description">до 7 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test3"/>
+                                                                <label for="test3">
+                                                                    <span class="list-name">Mercedes Sprinter<p class="list-description">до 18 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test4"/>
+                                                                <label for="test4">
+                                                                    <span class="list-name">Hammer limo 6<p class="list-description">до 18 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test5"/>
+                                                                <label for="test5">
+                                                                    <span class="list-name">Mercedes «S class»<p class="list-description">до 3 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test6"/>
+                                                                <label for="test6">
+                                                                    <span class="list-name">Mercedes Viano<p class="list-description">до 7 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test7"/>
+                                                                <label for="test7">
+                                                                    <span class="list-name">Mercedes Sprinter<p class="list-description">до 18 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="list-box">
+                                                        <span class="list-left-box">
+                                                            <form action="#">
+                                                                <input type="checkbox" id="test8"/>
+                                                                <label for="test8">
+                                                                    <span class="list-name">Hammer limo 6<p class="list-description">до 18 чел.</p></span>
+                                                                </label>
+                                                            </form>
+                                                        </span>
+                                                        <span class="list-right-box">
+                                                            <form action="#">
+                                                                <span class="plusminusunit">
+                                                                    <span class="minus"></span>
+                                                                        <input min="0" max="99" step="1"/>
+                                                                    <span class="plus"></span>
+                                                                </span>
+                                                            </form>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li class="btn btn-primary btn-dropdown">готово</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="form-zay">
+                                        <span class="form-selection">
+                                            <span class="left-box"> Mercedes S+ class</span><span class="center-box">до 3 чел.</span><span class="right-box">кол-во авто: 4</span>
+                                        </span>
+                                        <div class="group-addon">
+                                            <a class="if-close" href="#"></a>
+                                        </div>
+                                    </div>
+                                    <div class="form-zay">
+                                        <span class="form-selection">
+                                            <span class="left-box">Mercedes Viano</span><span class="center-box">до 8 чел.</span><span class="right-box">кол-во авто: 1</span>
+                                        </span>
+                                        <div class="group-addon">
+                                            <a class="if-close" href="#"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 request-box-3">
+                                    <span class="form-name">Ваш телефон или e-mail</span>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" placeholder="+7 906 566-33-00">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 request-box-4">
+                                    <button class="btn btn-primary btn-request">ОТПРАВИТЬ ЗАЯВКУ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="экскорт">
+                            2
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="трансфер">
+                            3
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="info-request">
+                    После отправки заявки наш менеджер перезвонит Вам для уточнения деталей<br/>Не нашли подходящие условия? Позвоните нам <span>+7 (917) 557-57-55</span>
+                </span>
+        </section>
+    </div>
+
+    <div class="white-box">
+        <section class="container">
+            <h2 class="title-box">всегда высокий уровень<br/>обслуживания</h2>
+            <div class="service-box">
+                <div class="img-01"></div>
+                <p>Возможность забронировать автомобили не менее, чем за 10 часов до начала мероприятия</p>
+            </div>
+            <div class="service-box">
+                <div class="img-02"></div>
+                <p>Безналичный расчет и наличная оплата. Фиксированные расценки. Выдача всех отчетных документов водителем.</p>
+            </div>
+            <div class="service-box">
+                <div class="img-03"></div>
+                <p>Встреча с табличкой в аэропорту. Помощь с багажом. Бесплатное ожидание при указанном номере рейса по почте.</p>
+            </div>
+            <div class="service-box">
+                <div class="img-04"></div>
+                <p>Высокие требования к внешнему виду автомобиля. Автопарк состовляют иномарки представительского класса не старше 5-ти лет.</p>
+            </div>
+            <div class="service-box">
+                <div class="img-05"></div>
+                <p>Профессиональные водители, знание инфраструктуры города</p>
+            </div>
+        </section>
+    </div>
+    <div class="white-box">
+        <h2 class="title-box avto">Автопарк</h2>
+        <div id="oneOwl" class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="oneowl-img" src="int/img/oneowl-slide-01.png" alt="">
+                <div class="description-car">
+                    <span class="title">Mercedes «S class»</span>
+                    <span class="description-1">Автомобили представительского класса</span>
+                    <span class="description-2">вместимость: до 3 человек</span>
+                </div>
+            </div>
+            <div class="item">
+                <img class="oneowl-img" src="int/img/oneowl-slide-01.png" alt="">
+                <div class="description-car">
+                    <span class="title">Mercedes «S class»</span>
+                    <span class="description-1">Автомобили представительского класса</span>
+                    <span class="description-2">вместимость: до 3 человек</span>
+                </div>
+            </div>
+            <div class="item">
+                <img class="oneowl-img" src="int/img/oneowl-slide-01.png" alt="">
+                <div class="description-car">
+                    <span class="title">Mercedes «S class»</span>
+                    <span class="description-1">Автомобили представительского класса</span>
+                    <span class="description-2">вместимость: до 3 человек</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left-box">
+                <span class="copyright">Concrete <span>drive</span> © 2014</span>
+                <div class="social-network">
+                    <a href="#" class="vk"></a>
+                    <a href="#" class="facebook"></a>
+                    <a href="#" class="twitter"></a>
+                </div>
+            </div>
+            <div class="footer-center-box">
+                <ul class="nav navbar-footer">
+                    <li><a href="#" class="active">главная</a></li>
+                    <li><a href="#">о компании</a></li>
+                    <li><a href="#">услуги</a></li>
+                    <li><a href="#">стоимость</a></li>
+                    <li><a href="#">онлайн-заявка</a></li>
+                </ul><br/><br/>
+                <span>Сoncrete группа компаний</span>
+            </div>
+            <div class="footer-right-box">
+                <div class="phone phone-footer">
+                    <span class="number">+7 (917) <span class="num-bold">557-57-55</span></span>
+                    <span class="mode">Круглосуточно</span>
+                </div>
+                <div class="lang lang-footer">
+                    <a href="#" class="active rus">rus</a>
+                    <a href="#" class="eng">eng</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--==========MODAL-MENU==========-->
+    <div id="menu" class="modal fade" aria-hidden="false" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-header">
+                        <div class="button-box">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="line-3"></span>
+                        </div>
+                        <span class="modal-title">меню</span>
+                        <button class="close" data-dismiss="modal" type="button">
+                            <i class="icono-cross"></i>
+                            <span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <ul class="navbar-modal">
+                        <li><a href="#">главная</a></li>
+                        <li><a href="#">о компании</a></li>
+                        <li><a href="#">услуги</a></li>
+                        <li><a href="#">автопарк</a></li>
+                        <li><a href="#">стоимость</a></li>
+                        <li><a href="#">онлайн-заявка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ext/default/js/jquery-1.10.2.min.js"></script>
+    <script src="ext/bootstrap/js/bootstrap.min.js"></script>
+    <script src="ext/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="ext/owl.carousel/owl.carousel.min.js"></script>
+    <script src="ext/default/js/settings.js"></script>
+
+</body>
+</html>

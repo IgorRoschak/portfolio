@@ -1,0 +1,9 @@
+.btn,
+a,
+.form-control,
+i {
+    -webkit-transition: all 0.12s linear;
+    -moz-transition: all 0.12s linear;
+    -o-transition: all 0.12s linear;
+    transition: all 0.12s linear;
+}

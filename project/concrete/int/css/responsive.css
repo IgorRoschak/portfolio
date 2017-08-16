@@ -1,0 +1,229 @@
+@media (max-width: 1250px) {
+    #oneOwl {
+        width: 432px;
+        position: relative;
+        left: 50%;
+        margin-left: -216px;
+    }
+    #oneOwl .owl-prev {
+        left: -67px;
+    }
+    #oneOwl .owl-next {
+        right: -67px;
+    }
+    .imposition-box {
+        display: none;
+    }
+}
+@media (max-width: 1100px) {
+    .lang {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .nav-tabs {
+        left: 40px;
+    }
+    .request-box-3 {
+        margin: 0 10px 0 35px;
+    }
+    .tab-content {
+        padding-left: 90px;
+    }
+    .info-request {
+        margin: -10px 130px 0;
+    }
+    .service-box {
+        width: 100%;
+        margin: 33px 0 0;
+    }
+    .img-01, .img-02, .img-03, .img-04, .img-05 {
+        left: 50%;
+        margin-left: -82px;
+        position: relative;
+    }
+    .service-box p {
+        left: 50%;
+        margin-left: -82px;
+        padding: 0;
+        position: relative;
+        width: 163px;
+    }
+}
+@media (max-width: 770px) {
+    .container .navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .title-box {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .box-request {
+        border: none;
+    }
+    .nav-tabs {
+        position: relative;
+        left: 0;
+        background: none;
+        width: 100%;
+    }
+    .nav-tabs > li {
+        margin: 0 20px 10px;
+        width: 100%;
+    }
+    .nav-tabs > li > a {
+        padding: 0;
+    }
+    .request-box-1, .request-box-2, .request-box-3, .request-box-4 {
+        width: 100%;
+        margin: 0 10px 10px 10px;
+    }
+    .tab-content {
+        padding: 0 20px 60px 0;
+    }
+    .tab-pane {
+        padding: 0;
+    }
+    .btn-request {
+        width: 100%;
+    }
+    .info-request {
+        margin: -10px 10px 0;
+    }
+    .input-group {
+        width: 100%;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    .dropdown {
+        width: 100%;
+    }
+    .open > .dropdown-menu {
+        width: 100.5%;
+    }
+    .btn-dropdown {
+        width: 100.1%;
+    }
+    .nav-dropdown {
+        margin-left: 0;
+    }
+    .form-zay {
+        display: none;
+    }
+    .footer-center-box {
+        display: none;
+    }
+    .logo {
+        margin: 43px 0 0 15px;
+    }
+    .description-car {
+        margin-top: 131px;
+    }
+    #oneOwl .owl-prev {
+        top: 150px;
+        left: 130px;
+    }
+    #oneOwl .owl-next {
+        top: 150px;
+        right: 130px;
+    }
+    .footer-left-box {
+        text-align: center;
+    }
+    footer {
+        min-height: 220px;
+    }
+    .social-network {
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .copyright {
+        position: absolute;
+        top: 84px;
+        left: 50%;
+        margin-left: -68px;
+        margin-bottom: 0;
+    }
+    .phone-footer {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        margin-left: -72px;
+    }
+    .lang-footer {
+        display: block;
+        position: absolute;
+        top: 193px;
+        width: 100%;
+    }
+    .lang-footer a {
+        display: block;
+        height: 46px;
+        line-height: 46px;
+        background: #151515;
+        color: #8f8e8e;
+        width: 50%;
+        text-align: center;
+    }
+    .lang-footer a:hover,
+    .lang-footer .active {
+        background: #262626;
+        color: #fff;
+    }
+    .lang-footer .rus {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .lang-footer .eng {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+@media (max-width: 481px) {
+    header {
+        background: url("../img/banner-top-320.jpg") no-repeat scroll center #000000;
+        height: 581px;
+        width: auto;
+    }
+    .phone-header {
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        margin-left: -68px;
+    }
+    .phone-header .mode {
+        display: none;
+    }
+    .open > .dropdown-menu {
+        width: 101.3%;
+    }
+    #oneOwl {
+        width: 245px;
+        position: relative;
+        left: 50%;
+        margin-left: -123px;
+    }
+    .oneowl-img {
+        background: url("../img/oneowl-slide-01-320.png");
+        height: 71px;
+        width: 245px;
+        opacity: 1;
+    }
+    #oneOwl .owl-prev {
+        top: 100px;
+        left: 40px;
+    }
+    #oneOwl .owl-next {
+        top: 100px;
+        right: 40px;
+    }
+}

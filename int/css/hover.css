@@ -1,0 +1,369 @@
+.close::before,
+.close::after,
+.from_top_and_bottom .show-work .info .desc,
+.form-contact,
+.floating, .floating .navbar-header li, .floating .lang,
+.floating .logo img,
+.navbar-header li,
+.navbar-default .navbar-toggle,
+.logo img,
+.lang,
+.fa,
+a,
+.btn {
+    -webkit-transition: all 0.12s linear;
+    -moz-transition: all 0.12s linear;
+    -o-transition: all 0.12s linear;
+    transition: all 0.12s linear;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+/* Icon Bob */
+@-webkit-keyframes fa-angle-up {
+    0% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes fa-angle-up {
+    0% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+}
+
+@-webkit-keyframes fa-angle-up-float {
+    100% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes fa-angle-up-float {
+    100% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+}
+
+.fa-angle-up {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 85px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding-right: 2em;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.floating .fa-angle-up {
+    color: #00bce2;
+    line-height: 60px;
+}
+
+.fa-angle-up:before {
+    position: absolute;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.fa-angle-up:before {
+    -webkit-animation-name: fa-angle-up-float, fa-angle-up;
+    animation-name: fa-angle-up-float, fa-angle-up;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+    color: rgba(0, 0, 0, 0);
+}
+
+.floating .fa-angle-up:before {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fa-angle-up:before {
+    font-weight: 700;
+}
+
+/*----------------------*/
+.ih-item {
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.ih-item,
+.ih-item * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ih-item .img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ih-item.square .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ih-item.square.effect6 {
+    overflow: hidden;
+}
+
+.ih-item.square.effect6 .img {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.ih-item.square.effect6 .info {
+    background: rgba(26, 74, 114, 0.93);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    padding: 15px;
+}
+
+.ih-item.square.effect6 .info h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0);
+    margin-bottom: 15px;
+    padding: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.ih-item.square.effect6 .info .list-desc {
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.ih-item.square.effect6 a:hover .img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.ih-item.square.effect6 a:hover .info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ih-item.square.effect6.from_top_and_bottom .info h3 {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.ih-item.square.effect6.from_top_and_bottom .info .list-desc {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.ih-item.square.effect6.from_top_and_bottom .show-work:hover .info h3,
+.ih-item.square.effect6.from_top_and_bottom .show-work:hover .info .list-desc {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/*icon-scroll*/
+.icon-scroll {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -8px;
+    width: 16px;
+    height: 50px;
+    z-index: 99999;
+    -webkit-transition: .4s;
+}
+
+.icon-scroll span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    margin: 0 0 2px 5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.icon-scroll .a1 {
+    margin-top: 6px;
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    animation-delay: .1s;
+}
+
+.icon-scroll .a2 {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+.icon-scroll .a3 {
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+@-webkit-keyframes mouse-wheel {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+}
+
+@-moz-keyframes mouse-wheel {
+    0% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -moz-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+}
+
+@keyframes mouse-wheel {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+}
+
+@-webkit-keyframes mouse-scroll {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes mouse-scroll {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes mouse-scroll {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

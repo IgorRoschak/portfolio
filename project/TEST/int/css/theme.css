@@ -1,0 +1,97 @@
+a {
+    color: #999999;
+}
+
+a:hover,
+a:focus {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:focus,
+a:active,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn.active.focus {
+    outline: none;
+}
+
+/*.form-control::-webkit-input-placeholder {color: rgba(255,255,255,0.5);}*/
+/*.form-control::-moz-placeholder {color:rgba(255,255,255,0.5);}/!* Firefox 19+ *!/*/
+/*.form-control:-moz-placeholder {color:rgba(255,255,255,0.5);}/!* Firefox 18- *!/*/
+/*.form-control:-ms-input-placeholder {color:rgba(255,255,255,0.5);}*/
+
+.header {
+    padding: 30px 0;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav li {
+    margin-right: 65px;
+}
+
+.navbar-nav li:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 3px 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0);
+    color: #4d545e;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:focus   {
+    border: 1px solid #4d545e;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: "MyriadProBoldItalic", sans-serif;
+    color: #4d545e;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 0 !important;
+    font-family: "MyriadProBold", sans-serif;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 36px;
+    margin: 25px 0 15px;
+    color: #000000;
+}
+
+h4 {
+    font-size: 22px;
+    font-family: "MyriadProBold", sans-serif;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+address {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #aba6a6;
+    display: block;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DinCondC';
+    src: url('DinCondC-Medium.eot');
+    src: url('DinCondC-Medium.eot?#iefix') format('embedded-opentype'),
+         url('DinCondC-Medium.woff') format('woff'),
+         url('DinCondC-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
